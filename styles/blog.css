@@ -1,0 +1,30 @@
+.blog-box {
+    margin-top: 100px;
+    height: 100vh;
+    border-top: 5px solid black;
+    padding-top: 100px;
+}
+
+.list-box {
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 20%;
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.blog-btn {
+    margin-top: 20px;
+    background-color: teal;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 600;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.content-box {
+    margin-top: 100px;
+}
