@@ -1,5 +1,7 @@
 import Content from '../components/Content'
 import BlogList from '../components/BlogList';
+import BlogContent from '../components/BlogContent';
+
 
 const Home = () => {
   
@@ -7,6 +9,7 @@ const Home = () => {
     <>
       <Content />
       <BlogList />
+      <BlogContent />
     </>
   );
 };

@@ -41,7 +41,7 @@ const BlogList = () => {
                         </div>
                         <div className=''>
                             <button className='blog-btn'>
-                                <Link href={'/BlogContent'}>
+                                <Link key={blog.id} href={'/blogcontents/' + blog.id}>
                                 Click to Learn more...
                                 </Link>     
                             </button>      
