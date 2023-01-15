@@ -24,13 +24,13 @@ const BlogList = () => {
 
 
   return (
-    <div>
-        <div className='blog-box'>
+    <div className=''>
+        <div className='blog-box grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-10'>
             {bloglist.map((blog) => (
-                <div className='flex justify-start list-box px-10'
+                <div className='list-box-1'
                 key={blog.id}
                 >
-                    <div className='flex-col'>
+                    <div className=''>
                         <h1 className='text-2xl mt-6 font-semibold'>
                             {blog.maintext}
                         </h1>

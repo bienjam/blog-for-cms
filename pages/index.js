@@ -1,15 +1,13 @@
-import Content from '../components/Content'
 import BlogList from '../components/BlogList';
-import BlogContent from '../components/BlogContent';
+import Navbar from '../components/Navbar';
 
 
 const Home = () => {
   
   return (
     <>
-      <Content />
+      <Navbar />
       <BlogList />
-      <BlogContent />
     </>
   );
 };

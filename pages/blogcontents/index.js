@@ -18,11 +18,6 @@ const BlogContents = ({ blogs }) => {
     <div>
      <div>Blogs</div>
       <div>
-        {/* {blogs.map((blog) => (
-          <div key={id}>{blog.maintext}</div>
-        ))} */}
-
-
         {blogs.data.map(blog => (
           <div key={blog.id}>
             {blog.description}

@@ -1,6 +1,8 @@
 import React from 'react'
 import { useEffect, useState } from "react";
 import Link from 'next/link';
+import Navbar from './Navbar';
+
 
 const cmsURL = process.env.CMS_BASE_URL
 
@@ -23,7 +25,8 @@ const BlogContent = () => {
         }, [])
 
   return (
-    <div>
+    <div className=''>
+        <Navbar />
         <div className='content-box'>
             {blogContent.map((blog) => (
                 <div className='list-box p-20' key={blog.id}>
