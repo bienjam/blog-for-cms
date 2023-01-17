@@ -31,9 +31,11 @@ const BlogList = () => {
                 key={blog.id}
                 >
                     <div className=''>
-                        <h1 className='text-2xl mt-6 font-semibold'>
+                        <h1 className='text-2xl mt-6 font-semibold mb-1'>
                             {blog.maintext}
                         </h1>
+                        <p className='font-bold text-xs'>Written by: <u><i>{blog.author}</i></u></p>
+                        <p className='text-xs'>{blog.date}</p>
                         <div className='mt-6'>
                             <p className='italic'>
                                 {blog.subtext}
