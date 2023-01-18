@@ -1,10 +1,10 @@
 import React from 'react'
 
-
+const cmsURL = process.env.CMS_BASE_URL
 
 export const getStaticProps = async () => {
 
-  const res = await fetch ('http://localhost:3001/api/bien-blog-cms');
+  const res = await fetch(`${cmsURL}/api/bien-blog-cms`);
   const data = await res.json();
 
   return {
